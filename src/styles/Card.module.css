@@ -1,0 +1,87 @@
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    border: 3px solid greenyellow;
+    border-radius: 18px;
+    padding: 0px;
+    gap: 1px;
+    background-color: rgba(172, 255, 47, 0.226);
+}
+
+.Card:hover {
+    box-shadow: 0 0 15px greenyellow;
+    transition: 100ms;
+}
+
+.link {
+    margin: 0;
+    text-decoration: none;
+    width: 250px;
+    color: rgb(0, 92, 0);
+    font-size: large;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.h2 {
+    width: 250px;
+    color: rgb(0, 92, 0);
+    font-size: large;
+    font-weight: 400;
+    margin: 0;
+}
+
+.h2Container {
+    margin-bottom: 15px;
+}
+
+.fav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    position: static;
+}
+
+.emoji {
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+}
+
+.button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35px;
+    width: 35px;
+    border: solid 2px rgb(255, 71, 163);
+    border-radius: 10px;
+    background-color: rgba(216, 112, 147, 0.534);
+    color: rgb(255, 71, 163);
+    font-size: larger;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: solid 2px rgb(255, 0, 128);
+    background-color: rgba(216, 112, 147, 0);
+    color: rgb(255, 0, 128);
+    transition: 150ms;
+}

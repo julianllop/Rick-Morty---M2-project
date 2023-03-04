@@ -1,0 +1,76 @@
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    height: 300px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    width: 800px;
+}
+
+.info h1{
+    font-size: x-large;
+    color: rgb(255, 71, 163);
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    border: solid 2px greenyellow;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.container:hover {
+    box-shadow: 0 0 15px greenyellow;
+    transition: 100ms;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont button {
+    height: 50px;
+    width: 100px;
+    border: solid 2px green;
+    border-radius: 5px;
+    background-color: rgba(172, 255, 47, 0.664);
+    color: green;
+    
+}
+
+.cont button:hover {
+    height: 50px;
+    width: 100px;
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+    background-color: rgba(172, 255, 47, 0);
+    color: greenyellow;
+    cursor: pointer;
+    transition: 100ms;
+}

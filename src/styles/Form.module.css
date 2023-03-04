@@ -1,0 +1,83 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border: solid 2px greenyellow;
+    border-radius: 15px;
+    background-color: rgba(172, 255, 47, 0.226);
+    padding: 100px 20px 100px 20px;
+}
+
+.Form:hover {
+    box-shadow: 0 0 15px greenyellow;
+    transition: 100ms;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    height: 40px;
+    border: solid 2px green;
+    border-radius: 5px;
+    background-color: rgba(172, 255, 47, 0.664);
+    color: green;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: green;
+}
+
+.warning {
+    height: 40px;
+    border-radius: 5px;
+    border: solid rgb(255, 0, 68) 2px;
+    color: rgb(255, 0, 68);
+    background-color: rgba(255, 51, 105, 0.205);
+    font-size: large;
+    padding-left: 10px;
+}
+
+.danger {
+    font-size: large;
+    width: 350px;
+    color: rgb(210, 0, 56);
+}
+
+label {
+    font-size: xx-large;
+    color: rgb(255, 71, 163);
+}
+
+.button {
+    font-size: large;
+    border: solid 2px rgb(255, 71, 163);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 71, 163);
+    background-color: rgba(216, 112, 147, 0.354);
+}
+
+.button:hover {
+    cursor: pointer;
+    border: solid 2px rgb(255, 0, 128);
+    background-color: rgba(216, 112, 147, 0);
+    color: rgb(255, 0, 128);
+    transition: 250ms;
+}

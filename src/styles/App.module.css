@@ -1,0 +1,19 @@
+html{
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-image: url('../../src/img/get-schwifty-rick-and-morty-4k-r2.jpg');
+   background-repeat: inherit;
+   background-attachment: scroll;
+   background-size: cover;
+}
+
+/* .App {
+   
+} */
